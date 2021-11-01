@@ -86,6 +86,7 @@
     height: 45px;
     border: 1px solid #dbdbdb;
     border-radius: 5px;
+    animation-timing-function: cubic-bezier();
 }
 input[type="radio"]:checked ~ .mark{
     border-color:#1294fc;
